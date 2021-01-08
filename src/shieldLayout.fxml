@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ArmorMenuController">
+   <children>
+      <AnchorPane prefHeight="476.0" prefWidth="850.0">
+         <children>
+            <ImageView fitHeight="700.0" fitWidth="850.0" layoutX="2.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hi.jpg" />
+               </image></ImageView>
+            <Button id="smallButton" layoutX="26.0" layoutY="154.0" mnemonicParsing="false" onAction="#smallButtonClicked" prefHeight="68.0" prefWidth="149.0" style="-fx-background-color: skyblue;" text="Small Shield" />
+            <Button id="mediumButton" layoutX="26.0" layoutY="325.0" mnemonicParsing="false" onAction="#mediumButtonClicked" prefHeight="68.0" prefWidth="149.0" style="-fx-background-color: skyblue;" text="Medium Shield" />
+            <Button id="largeButton" layoutX="26.0" layoutY="492.0" mnemonicParsing="false" onAction="#largeButtonClicked" prefHeight="68.0" prefWidth="149.0" style="-fx-background-color: skyblue;" text="Large Shield" />
+            <Button id="backToShopButton" layoutX="694.0" layoutY="166.0" mnemonicParsing="false" onAction="#backToShopButtonClicked" prefHeight="44.0" prefWidth="103.0" text="Back" />
+            <Label layoutX="197.0" layoutY="173.0" prefHeight="31.0" prefWidth="109.0" text="\$5000" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Glow level="0.93" />
+               </effect>
+            </Label>
+            <Label layoutX="197.0" layoutY="344.0" prefHeight="31.0" prefWidth="109.0" text="\$20,000" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Bloom threshold="0.96" />
+               </effect>
+            </Label>
+            <Label layoutX="197.0" layoutY="511.0" prefHeight="31.0" prefWidth="109.0" text="\$80,000" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Glow level="0.71" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

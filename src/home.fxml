@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <AnchorPane prefHeight="501.0" prefWidth="713.0">
+         <children>
+            <ImageView fitHeight="482.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@0_fOBfe7Lw1Pyn252R.jpg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="nameTextField" layoutX="328.0" layoutY="191.0" prefHeight="32.0" prefWidth="195.0" />
+            <Label layoutX="322.0" layoutY="129.0" prefHeight="62.0" prefWidth="207.0" text="Enter Name: " textFill="#c9970d">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Button layoutX="369.0" layoutY="238.0" mnemonicParsing="false" onAction="#enterClicked" prefHeight="42.0" prefWidth="113.0" style="-fx-background-color: #4169E1;" text="Enter" textFill="#fca103">
+               <font>
+                  <Font name="Cambria Bold" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="272.0" layoutY="339.0" text="InterSpellar" textFill="#165bd3">
+               <font>
+                  <Font name="System Bold" size="59.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

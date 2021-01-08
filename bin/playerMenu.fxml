@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PlayerMenuController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="476.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@0_fOBfe7Lw1Pyn252R.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="playButton" layoutX="367.0" layoutY="29.0" mnemonicParsing="false" onAction="#playClicked" prefHeight="50.0" prefWidth="107.0" style="-fx-background-color: #800080;" text="Play" textFill="#fcdf03">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="shopButton" layoutX="373.0" layoutY="200.0" mnemonicParsing="false" onAction="#shopButtonClicked" style="-fx-background-color: #800080;" text="Shop" textFill="#fcdf03">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="mainMenuButton" layoutX="343.0" layoutY="284.0" mnemonicParsing="false" onAction="#mainMenuClicked" style="-fx-background-color: #000080;" text="Main Menu" textFill="#ee760c">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="selectShipButton" layoutX="345.0" layoutY="107.0" mnemonicParsing="false" onAction="#selectShipButtonClicked" prefHeight="63.0" prefWidth="161.0" style="-fx-background-color: #000080;" text="Select Ship" textFill="#ee760c">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="highScoresButton" layoutX="333.0" layoutY="363.0" mnemonicParsing="false" onAction="#highScoresClicked" style="-fx-background-color: #800080;" text="High Scores" textFill="#fcdf03">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

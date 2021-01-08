@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EndScreenController">
+   <children>
+      <AnchorPane prefHeight="293.0" prefWidth="668.0">
+         <children>
+            <ImageView fitHeight="550.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@286880.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="284.0" layoutY="29.0" text="Game Over" textFill="#0e39e8">
+               <font>
+                  <Font name="System Bold" size="57.0" />
+               </font>
+            </Label>
+            <Button fx:id="playerMenuButton" layoutX="297.0" layoutY="131.0" mnemonicParsing="false" onAction="#playerMenuClicked" style="-fx-background-color: #0008ea;" text="Back To Player Menu" textFill="#ebb000">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

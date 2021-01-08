@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ShopMainController">
+   <children>
+      <AnchorPane prefHeight="476.0" prefWidth="850.0">
+         <children>
+            <ImageView fitHeight="476.0" fitWidth="850.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@shop.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="buyShipButton" layoutX="339.0" layoutY="103.0" mnemonicParsing="false" style="-fx-background-color: #f4eeee;" text="Buy A New Ship" textFill="#fc0303">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="armorButton" layoutX="340.0" layoutY="216.0" mnemonicParsing="false" onAction="#armorButtonClicked" style="-fx-background-color: #f4eeee;" text="Upgrade Armor" textFill="#ee0505">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="playerMenuButton" layoutX="317.0" layoutY="335.0" mnemonicParsing="false" onAction="#playerMenuButtonClicked" style="-fx-background-color: #f4eeee;" text="Back To Player Menu" textFill="#ee0505">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
